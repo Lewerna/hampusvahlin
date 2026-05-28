@@ -35,3 +35,12 @@ h1, h2{
     width: 10%;
     border-radius: 50%;
 }
+
+@media(max-width: 800px){
+    .gif-image {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 50%;
+    }
+}
