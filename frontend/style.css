@@ -15,6 +15,7 @@ h1, h2{
 
 
 .github-button {
+    margin-top: 30px;
     font-size: 40px;
     display: inline-block;
     background: white;
@@ -26,4 +27,11 @@ h1, h2{
 }
 .github-button:hover {
     background: rgb(172, 172, 172)
+}
+
+.gif-image {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    border-radius: 50%;
 }
