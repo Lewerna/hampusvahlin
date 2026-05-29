@@ -47,8 +47,6 @@ h2 {
 
 
 .header-image {
-    display: block;
-    margin: 0 auto;
     width: 100px;
     border-radius: 50%;
     margin-left: 0px;
@@ -87,16 +85,44 @@ h2 {
 }
 
 @media(max-width: 800px){
-    .gif-image {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    border-radius: 50%;
+
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
+
+    .left-section,
+    .center-section,
+    .right-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-section {
+        justify-content: center;
+    }
+
+    .title-line {
+        width: 180px;
+    }
+
+    .gif-image {
+        margin: 30px auto 0;
+        width: 50%;
+        border-radius: 50%;
+    }
+
     .github-button {
-    font-size: 16px;
-    padding: 8px 16px;
-}
+        font-size: 16px;
+        padding: 8px 16px;
+    }
 }
 
 .title-line {
