@@ -93,6 +93,10 @@ h2 {
     width: 50%;
     border-radius: 50%;
     }
+    .github-button {
+    font-size: 16px;
+    padding: 8px 16px;
+}
 }
 
 .title-line {
