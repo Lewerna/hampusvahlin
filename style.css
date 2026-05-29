@@ -1,11 +1,59 @@
 body {
-    background: #111;
+    background: #0d1117;
     color: white;
     font-family: Arial;
 }
-h1, h2{
+
+h1 {
+    color: #f5f5f5;
+}
+
+h2 {
+    color: #6aa9ff;
+}
+
+
+
+.site-header {
+    background: linear-gradient(
+    to right,
+    transparent 13%,
+    #0b2950 50%,
+    transparent 93%
+    );
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    padding-top: 5px;
+
+}
+
+.left-section,
+.center-section,
+.right-section {
+    width: 33.33%;
+}
+
+.center-section {
     text-align: center;
 }
+
+.right-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.header-image {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 0px;
+}
+
 
 .button-container {
     display: flex;
@@ -15,23 +63,25 @@ h1, h2{
 
 
 .github-button {
-    margin-top: 30px;
-    font-size: 40px;
+    font-size: 24px;
     display: inline-block;
-    background: white;
-    color: rgb(11, 41, 80);
-    padding: 20px 40px;
+    background: rgb(11, 41, 80);
+    color: #ffffff;
+    padding: 12px 24px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
+       
 }
 .github-button:hover {
-    background: rgb(172, 172, 172)
+    background: #5889ca;
+    transform: translateY(-4px);
+    transition: 0.3s;
 }
 
 .gif-image {
     display: block;
-    margin: 0 auto;
+    margin: 50px auto 0;
     width: 10%;
     border-radius: 50%;
 }
@@ -43,4 +93,16 @@ h1, h2{
     width: 50%;
     border-radius: 50%;
     }
+}
+
+.title-line {
+    width: 300px;
+    height: 3px;
+    margin: 10px auto 0;
+    background: linear-gradient(
+        to right,
+        transparent,
+        white,
+        transparent
+    );
 }
